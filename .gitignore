@@ -1,12 +1,3 @@
-__pycache__
-instance
-.pyc
-.db
-.env
-venv
-.swp
-.DS_Store
-config_local.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
@@ -14,59 +5,27 @@ __pycache__/
 # Virtual environment
 venv/
 
-# Environments variables
-.env
-env.py
-
-# SQLite database file (if used)
-*.db
-
-# If you decide to exclude migration scripts
-# migrations/versions/
-
-# MacOS system file
-.DS_Store
-
-# Local configuration file (if you have one)
-config_local.py
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.pyc
-
-# Virtual environment
-venv/
-
-# Environment variables and local config
+# Environment files
 .env
 env.py
 pyvenv.cfg
 
-# SQLite database file (if used)
+# Database files
 *.db
 
-# Folder metadata on MacOS
+# OS generated files
 .DS_Store
-
-# Local configuration file (if you have one)
-config_local.py
-
-# Alembic files to ignore if they contain sensitive information
-# migrations/versions/*.py
-
-# Editor specific files
-.vscode/
-.idea/
-*.swp
-
-# Windows image file caches
 Thumbs.db
-
-# Folder config file on Windows
 Desktop.ini
 
-# Python distribution
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Python distributions
 *.egg-info/
 dist/
 
-# Jupyter Notebook checkpoints
+# Jupyter notebook checkpoints
 .ipynb_checkpoints/
