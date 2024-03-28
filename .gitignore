@@ -11,6 +11,7 @@ env.py
 pyvenv.cfg
 
 # Database files
+migrations/
 *.db
 
 # OS generated files
