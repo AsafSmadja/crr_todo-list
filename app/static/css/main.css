@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #f3f3f3;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the start of the container */
+    justify-content: center; /* Centers items along the main axis */
+}
+
+.counters {
+    margin-right: 20px; /* Adds some space between the counters and the chart */
+}
+
+.chart {
+    flex-shrink: 0; /* Prevents the chart from shrinking */
+}
