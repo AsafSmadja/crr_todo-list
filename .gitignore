@@ -1,0 +1,72 @@
+__pycache__
+instance
+.pyc
+.db
+.env
+venv
+.swp
+.DS_Store
+config_local.py
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Environments variables
+.env
+env.py
+
+# SQLite database file (if used)
+*.db
+
+# If you decide to exclude migration scripts
+# migrations/versions/
+
+# MacOS system file
+.DS_Store
+
+# Local configuration file (if you have one)
+config_local.py
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Environment variables and local config
+.env
+env.py
+pyvenv.cfg
+
+# SQLite database file (if used)
+*.db
+
+# Folder metadata on MacOS
+.DS_Store
+
+# Local configuration file (if you have one)
+config_local.py
+
+# Alembic files to ignore if they contain sensitive information
+# migrations/versions/*.py
+
+# Editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file on Windows
+Desktop.ini
+
+# Python distribution
+*.egg-info/
+dist/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
